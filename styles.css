@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(213, 207, 207)
+}
+
+
+.header {
+    width: 70%;
+    background-color: aquamarine;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+
+}
+
+.logo .logo-text {
+    font-size: 40px;
+}
+
+.paper {
+    width: 90px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid greenyellow;
+    border-radius: 3px;
+
+}
+
+.cart i {
+    font-size: 20px;
+
+}
+
+
+
+
+.index p {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+
+    width: 70%;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+
+#root {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+
+.sidebar {
+    width: 40%;
+    background-color: darkgrey;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 6px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: serif;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+
+
+}
+
+
+.footer {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid greenyellow;
+}
+
+
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+
+.img-box {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.images {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.bottom {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    margin-bottom: 40px;
+
+}
+
+button {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    color: black;
+    border: none;
+    background-color: aquamarine;
+    padding: 7px 25px;
+
+
+
+}
+
+button:hover {
+    background-color: cornsilk;
+
+}
+
+
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #aaa;
+    border-radius: 3px;
+    margin: 10px 10px;
+}
+
+.row-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rowimg {
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 50%;
+}
+
+.fa-trash:hover {
+    cursor: pointer;
+    color: #333;
+}
